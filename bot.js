@@ -26,7 +26,7 @@ bot.on('message', async (msg) => {
             const $ = cheerio.load(data);
             
             // Extract the desired data (example: title of the page)
-            const title = $('title').text();
+            const title = $('strong').text();
             
             // Send the extracted data back to the user
             bot.sendMessage(chatId, `Title of the page: ${title}`);

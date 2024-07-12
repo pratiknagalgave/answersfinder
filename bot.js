@@ -9,7 +9,7 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const token = '6522836138:AAEJuk5QQ0Wp-YdCyv5ca9cZM0uL5ombtH4';
+const token = '7164642800:AAGuiY2i_4G5_slyvKmf4q35fDJPdiW1_cQ';
 const bot = new TelegramBot(token, { polling: true });
 
 // Serve the HTML file
